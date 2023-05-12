@@ -178,7 +178,7 @@
     font-size: 24px;
     background: #FFFFFF;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-    height: 210px;
+    height: 250px;
 }
 
 .top{
@@ -1069,6 +1069,15 @@ ul{
     background: white;
 }
 
+.left{
+    margin-top:100px;
+    margin-left:0px;
+}
+
+.upper button {
+    margin-left: 60px;
+}
+
 .above .inside{
     display: flex;
     flex-direction: row;
@@ -1077,23 +1086,70 @@ ul{
     background: #FFFFFF;
 }
 
+.image {
+    display: flex;
+    flex-direction: column;
+    width: 0%;
+}
+
 .btn {
-    width: 12%;
+    width: 15%;
     border: none;
     outline: none;
     height: 50px;
     color: white;
     background: #23A6F0;
-    border: 1px solid #E6E6E6;
     border-radius: 0px 5px 5px 0px;
+}
+
+.appt{
+    display: flex;
 }
 
 .form1 {
     align-items: flex-start;
-    padding: 20px;
-    width: 550px;
     height: 614px;
     background: #FFFFFF;
+}
+
+.form-input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #F9F9F9;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    width: 188px;
+    height: 170px;
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    width: 188px;
+    height: 170px;
+    margin-left: 20px;
+}
+
+.resources{
+    display: flex;
+flex-direction: column;
+margin-left: 30px;
+height: 170px;
 }
 
 .copy{
@@ -1116,4 +1172,271 @@ ul{
     
 }
 
+}
+
+@media only screen and (max-device-width:991px)  {
+    
+
+    .login a {
+        margin-left: 20px;
+        margin-top: 28px;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+        color: white;
+        text-decoration: none;
+        text-align: right;
+        letter-spacing: 0.2px;
+    }
+
+    .branch {
+        margin-left: 10px;
+        margin-top: 80px;
+        margin-right: 0px;
+    }
+
+    .branch h2 {
+        /* height: 114px; */
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    .branch p {
+        /* width: 455px; */
+        /* height: 100px; */
+        font-family: 'Montserrat';
+        font-style: normal;
+        /* font-weight: 500; */
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+
+    .appt {
+        display: flex;
+    }
+
+    .image{
+        align-items: baseline;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-input {
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        background: #F9F9F9;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 18%;
+        border: none;
+        outline: none;
+        height: 50px;
+        color: white;
+        background: #23A6F0;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .book{
+        margin:0;
+        width: 200px;
+        color:white;
+        height: 60px;
+    }
+
+    .form1 {
+        align-items: flex-start;
+        height: 720px;
+        padding:1px;
+        width:500px;
+        background: #FFFFFF;
+    }
+
+   
+    .left 
+    {
+        margin:0px;
+    }
+
+    .texts h2{
+        margin-left: 0px;
+    }
+
+    .texts p{
+        margin-left:0px;
+    }
+
+    .links{
+        margin-left:10px;
+    }
+
+    .subscribe {
+        display: flex;
+        background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+        border-radius: 2px;
+        height: 150px;
+        padding: 30px 50px;
+        margin-left:15%;
+    }
+
+    .copy h6 {
+        margin-left: 0px;
+        /* margin-right: 520px; */
+        margin-top: 20px;
+        width:50%;
+        font-size: 10px;
+    }
+
+    .getintouch p{
+        width:200px;
+    }
+
+    .top {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .above .inside {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        margin:100px;
+        background: #FFFFFF;
+    }
+
+    .peace1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px;
+        gap: 30px;
+        width: 330px;
+        height: 250px;
+        border-radius: 5px;
+    }
+
+    .peace2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px;
+        gap: 30px;
+        width: 330px;
+        height: 250px;
+        border-radius: 5px;
+    }
+
+    .peace3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px;
+        gap: 30px;
+        width: 330px;
+        height: 250px;
+        border-radius: 5px;}
+
+        .grey1 {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .cards {
+            display: flex;
+            margin-top: 80px;
+            margin-left: 150px;
+            margin-right: 200px;
+            margin-bottom: 90px;
+        }
+
+        .card1, .card2 {
+           
+            height: 100%;
+        }
+
+        .card3{
+            display: none;
+        }
+
+        .logos {
+            height: 175px;
+            width: 65%;
+            margin-left: 20%;
+        }
+
+        .btn {
+            width: 25%;
+        }
+
+        .form {
+            margin-left: 100px;
+        }
+
+       .image{
+        display: none;
+       }
+
+       .pricecard {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-left: 20%;
+        margin-bottom: 20%;
+       }
+
+       .price1{
+        width:250px;
+       }
+
+       .price2{
+        width:250px;
+       }
+
+       .price3{
+        width: 250px;
+       }
+
+    .member {
+        text-align: center;
+        margin-left: 25px;
+        margin-top: 28px;
+        font-size: 10px;
+        outline: none;
+        border: none;
+        color: white;
+        padding: 12px;
+        gap:10px;
+        width: 160px;
+        height: 50px;
+        background: #23A6F0;
+        border-radius: 5px;
+    }
+   
+}
+
+
+@media only screen and (max-device-width:767px) {
+    
 }
