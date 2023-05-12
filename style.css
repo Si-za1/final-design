@@ -82,6 +82,9 @@
     letter-spacing: 0.2px;
 }
 
+.drop{
+    display: none;
+}
 .member{
     margin-left: 85px;
     margin-top: 28px;
@@ -1025,7 +1028,9 @@ ul{
 @media only screen and (max-device-width:1200px)
 {
     
-
+.drop{
+    display: none;
+}
 .login a{
     margin-left: 100px;
     margin-top: 28px;
@@ -1172,10 +1177,16 @@ height: 170px;
     
 }
 
+.ins{
+    display:none;
+}
 }
 
 @media only screen and (max-device-width:991px)  {
     
+    .drop{
+        display: none;
+    }
 
     .login a {
         margin-left: 20px;
@@ -1434,9 +1445,174 @@ height: 170px;
         border-radius: 5px;
     }
    
+    .ins{
+        display: none;
+    }
 }
 
 
 @media only screen and (max-device-width:767px) {
+ 
+    .drop{
+        display: block;
+        margin-top: 3%;
+        margin-left: 40%;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .member{
+       display: none;
+    }
+    .login a{
+        display: none;
+    }
+
+    .up{
+       font-size: 20px;
+       font-weight: 800;
+    }
+
+    .down{
+            font-weight: 200;
+            font-size: 16px;
+            width: 60%;
+            margin-top: 20px;
+    }
+   
+    .subscribe .form{
+        display: none;
+    }
+
+    .btn{
+        margin-left: 30%;
+        width:65%;
+        height: 60px;
+        color:white;
+        background: #23A6F0;
+        border-radius: 0px 5px 5px 0px;
+        
+    }
+
+    .buttonline{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .boxtext{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .boxtext .peace{
+        height:200px;
+    }
+    .set {
+        margin-left: 0;
+    }
+
+    .boxtext .satisfy{
+        margin-left: 0;
+    }
+
+    .above .inside{
+        display: flex;
+        flex-direction: column;
+    }
+    .form1{
+        width:120%;
+    }
+
+    .form-input{
+        width:90%;
+    }
+
+    .book{
+        width:60%;
+    }
+
+    .pricecard{
+        margin-left: 0px;
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        gap:8px;
+    }
+
+    .testi{
+        margin-top: 70%;
+    }
+
+    .try{
+        width: 100%;
+        padding: 12px 18px;
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .copy h6{
+        padding:0;
+        font: size 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+
+    .list{
+        gap: 8px;
+        margin-top: 22px;
+        margin-left: 20px; 
+    }
+
+    .list1{
+        font-size: 12px;
+        font-weight: 200;
+        gap:3px;
+    }
+    .price1{
+        display: none;
+    }
+    .price2{
+        width:250px;
+    }
+    .price3{
+        display: none;
+    }
+
+    .logos {
+        height: 190px;
+        width: 85%;
+        margin-left: 15%;
+    }
+
+    .subscribe{
+        padding: 10px 50px;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .form {
+        margin-left: 50px;
+    }
+
+    .copy img{
+        display: none;
+    }
+
+    .cards{
+        justify-content: center;
+        align-items: center;
+        margin-left:35%;
+        flex-direction: column;
+        gap:3px;
+    }
+
     
 }
